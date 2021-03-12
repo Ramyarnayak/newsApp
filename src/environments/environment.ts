@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   API_URL: "https://newsapi.org/v2",
-  API_KEY: "098bb706d3d042b6a5005147c776307f",
+  API_KEY: "21524a622a6a4601811778d5580a7ffb",
   firebase: {
     apiKey: "AIzaSyCpd5zBzxMhTmrmr-V-aCWXMr-XsWukFPg",
     authDomain: "social-app-1fa9d.firebaseapp.com",

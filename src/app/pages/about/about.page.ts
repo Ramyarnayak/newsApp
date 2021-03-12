@@ -23,9 +23,16 @@ export class AboutPage {
     private authService: FirebaseAuthService
   ) { }
 
+
+
+
+
+  
+
   ngOnInit() {
     this.route.data
     .subscribe((result) => {
+      console.log(result);
       this.user = result['data'];
     }, (err) => {})
   }
